@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Recommendations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>📚 BookFinder</h1>
+        </div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#genres">Genres</a>
+            <a href="#recommendations">Recommendations</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Discover Your Next Favorite Book</h2>
+                <p>Get personalized book recommendations with covers!</p>
+            </div>
+        </section>
+
+        <section class="search-container" id="genres">
+            <h2>Search by Genre</h2>
+            <div class="input-group">
+                <input type="text" id="genre" placeholder="Enter a genre (e.g., Fiction, Fantasy)" />
+                <button id="getRecommendations">Find Books</button>
+            </div>
+        </section>
+
+        <section id="recommendations" class="book-list">
+            <h2>Recommended Books</h2>
+            <div id="recommendedBooks" class="results"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 BookFinder. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
